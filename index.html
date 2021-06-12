@@ -52,13 +52,14 @@
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
                         <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                            Our dataset was collected by the U.S. Census Service.  View the 
+                            <a href="https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html">boston housing dataset.</a>
+                            here.  The data was published in 1978.  It contains 14 attibutes in the dataset.
+                            We used a linear regression model to predict the median value of a home.
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+                <!-- <img class="img-fluid" src="assets/img/ipad.png" alt="..." /> -->
             </div>
         </section>
         <!-- Projects-->
@@ -74,33 +75,31 @@
                         </div>
                     </div>
                 </div>
+                <br><br><br><br>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <!-- <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div> -->
-                    <div class="col-lg-6"><img class="img-fluid" src="output/StatusVsValue.png" alt="..." /></div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-4"><img class="img-fluid" src="output/StatusVsValue.png" alt="..." /></div>
+                    <div class="col-lg-4">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">% Lower Status vs Value</h4>
-                                    <p class="mb-0 text-white-50">The data shows a corlation between the % Lower Status and Value of the home.</p>
+                                    <p class="mb-0 text-white-50">The data shows a corlation between the % lower status and value of the home.</p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        <!-- Embed Tableau -->
-        <div class='tableauPlaceholder' id='viz1623511088152' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Boston_16234362163360&#47;MHVNRBA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Boston_16234362163360&#47;MHVNRBA' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Boston_16234362163360&#47;MHVNRBA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
-        <script type='text/javascript'>                    var divElement = document.getElementById('viz1623511088152');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='85%';vizElement.style.height=(divElement.offsetWidth*0.85)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
+                    <div class="col-lg-4"><img class="img-fluid" src="output/NumberOfRoomsVsValue.png" alt="..." /></div>
+                    <div class="col-lg-4 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
+                                    <h4 class="text-white">Number of Rooms vs Value</h4>
                                     <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
@@ -108,8 +107,30 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- Project Three Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <!-- <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div> -->
+                    <div class="col-lg-4"><img class="img-fluid" src="output/NitricOxideVsValue.png" alt="..." /></div>
+                    <div class="col-lg-4">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Nitric Oxide vs Value</h4>
+                                    <p class="mb-0 text-white-50">There is not a corlation between nitric oxide value and value of the home.</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br>
+        <!-- Embed Tableau -->
+        <div class='tableauPlaceholder' id='viz1623511088152' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Boston_16234362163360&#47;MHVNRBA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Boston_16234362163360&#47;MHVNRBA' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Boston_16234362163360&#47;MHVNRBA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+            <script type='text/javascript'>                    var divElement = document.getElementById('viz1623511088152');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='85%';vizElement.style.height=(divElement.offsetWidth*0.85)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                
+        </div>
         </section>
+        
         <!-- Signup-->
         <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
