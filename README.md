@@ -19,7 +19,7 @@ different variables and their correlations. Load http://127.0.0.1:5500/index.htm
  
 Libraries:
 
-o   matplotlib
+o   matplotlib </br>
 o   numpy
 o   pandas
 o   seaborn
