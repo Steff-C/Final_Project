@@ -20,11 +20,11 @@ different variables and their correlations. Load http://127.0.0.1:5500/index.htm
 Libraries:
 
 o   matplotlib </br>
-o   numpy
-o   pandas
-o   seaborn
-o   scikit-learn
-o   scipy
+o   numpy </br>
+o   pandas </br>
+o   seaborn </br>
+o   scikit-learn </br>
+o   scipy </br>
 
 Dataset:
 
