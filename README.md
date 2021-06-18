@@ -1,5 +1,7 @@
 Team 14 - Final Project - Boston Housing Data for Machine Learning
 
+Website: https://steff-c.github.io/Final_Project/ 
+
 This is the third and final group project for the University of Minnesota Data Analytics Boot Camp. Our goal is to analyze whether the variables in the dataset can be used to predict the Median House Value.  
 
 The group is made up of Stephanie Core, Rachel Fizel, Selom Kwadzo, and Matt Midwinter.
