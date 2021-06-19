@@ -18,7 +18,7 @@ The template code is provided in the ‘Boston_housing_data.ipynb’ notebook fi
 Visualizations:
 
 -   Create and use index.html to display graphs and the embedded Tableau analytics, featuring 
-different variables and their correlations. Load http://127.0.0.1:5500/index.html to interact with the visuals 
+different variables and their correlations. Load https://public.tableau.com/app/profile/stephanie.core/viz/Boston_16234362163360/BostonHousing to interact with the visuals 
  
 Libraries:
 
